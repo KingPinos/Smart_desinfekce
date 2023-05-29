@@ -6,12 +6,12 @@
 #include <WiFi.h>
 
 // Wi-Fi 
-const char* ssid = "LF";     // Nazev Wi-Fi 
-const char* password = "hesloksiti";  // Heslo Wi-Fi
+const char* ssid = "";     // Nazev Wi-Fi 
+const char* password = "";  // Heslo Wi-Fi
 
 // ThingSpeak
 const char* server = "api.thingspeak.com";
-const String apiKey = "7RUVV7G5K5XMMRYD";  // Write API key
+const String apiKey = "";  // Write API key
 
 Adafruit_MLX90614 mlx = Adafruit_MLX90614(); 
 
